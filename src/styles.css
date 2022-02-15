@@ -1,0 +1,307 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Dashboard-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+}
+
+.Dashboard-Title {
+  font-size: 45px;
+  font-family: monospace;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+
+.List-Container {
+  width: 1200px;
+  border: 3px solid #444444;
+  border-radius: 15px;
+  box-shadow: 6px 0px 6px -1px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 6px 0px 6px -1px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 6px 0px 6px -1px rgba(0, 0, 0, 0.51);
+}
+
+.List-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.List-Title {
+  font-size: 30px;
+  font-family: monospace;
+}
+
+.Add-btn {
+  background-color: #2389e9;
+  width: 120px;
+  font-size: 15px;
+  font-family: monospace;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+.Add-btn-link {
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+}
+
+.Order-btn {
+  background-color: #2a4d6d;
+  color: rgb(245, 245, 245);
+  font-weight: bold;
+  width: 220px;
+  font-size: 15px;
+  font-family: monospace;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.List-sub-container {
+  display: flex;
+  flex-direction: column;
+  background-color: ghostwhite;
+}
+
+.List-subtitles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border: 1px solid #bbb1b1db;
+  padding: 25px;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.List-subtitles span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+
+.Nousers-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+.Nousers-Text {
+  font-size: 35px;
+  font-family: monospace;
+}
+
+/* Card */
+
+.Card-Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.Card-Container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  text-align: center;
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.Edit-btn {
+  background-color: #e9e445;
+  width: 120px;
+  font-size: 15px;
+  font-family: monospace;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.Edit-btn-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.Delete-btn {
+  background-color: #f1342d;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  font-size: 15px;
+  font-family: monospace;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Popup */
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  background-color: #f5f5f5;
+  border: 2px solid #444444;
+  border-radius: 15px;
+  box-shadow: 6px 0px 6px -1px rgba(0, 0, 0, 0.51);
+  -webkit-box-shadow: 6px 0px 6px -1px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 6px 0px 6px -1px rgba(0, 0, 0, 0.51);
+}
+
+.close {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 275px;
+}
+
+.popup-text {
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.popup-btn-container {
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  padding: 20px;
+}
+
+.popup-btn {
+  background-color: #d8d8d8;
+  width: 80px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: monospace;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* Form */
+
+.Form-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Form-Container div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.Form-Container div span {
+  text-align: center;
+  font-size: 12px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.input {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 10px;
+  border: gray 2px solid;
+  padding: 5px;
+}
+
+.green {
+  border: green solid 2px;
+}
+
+.red {
+  border: red solid 2px;
+}
+
+.btn-form-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 20px;
+}
+
+.cancelform-btn {
+  background-color: #d8d8d8;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  font-size: 15px;
+  font-family: monospace;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cancelform-btn {
+  background-color: #d8d8d8;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  font-size: 15px;
+  font-family: monospace;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cancelform-btn-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.submit-btn {
+  background-color: #d8d8d8;
+  font-weight: bold;
+  width: 120px;
+  font-size: 15px;
+  font-family: monospace;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.popup-overlay {
+  background-color: rgba(0, 0, 0, 0.51) !important;
+}
